@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 39
+=======
+  controlID: 97
+>>>>>>> parent of 8f897a9e (hope it does not crash)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +231,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 40
+=======
+  controlID: 98
+>>>>>>> parent of 8f897a9e (hope it does not crash)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +260,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 41
+=======
+  controlID: 47
+>>>>>>> parent of 8f897a9e (hope it does not crash)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -355,10 +367,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 11}
     m_SelectedIDs: 5c5d0000
     m_LastClickedID: 23900
     m_ExpandedIDs: 00000000125d0000385d000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 43}
+    m_SelectedIDs: 565d0000
+    m_LastClickedID: 23894
+    m_ExpandedIDs: 00000000325d0000345d000000ca9a3b
+>>>>>>> parent of 8f897a9e (hope it does not crash)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +405,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000125d0000
+=======
+    m_ExpandedIDs: 00000000
+>>>>>>> parent of 8f897a9e (hope it does not crash)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -507,9 +530,13 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 045e0000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 64f6ffff
+=======
+      m_ExpandedIDs: 66f6ffff
+>>>>>>> parent of 8f897a9e (hope it does not crash)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -622,9 +649,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.020869425, y: 0.64481795, z: -0.017608719, w: -0.76384825}
   m_Size:
-    m_Target: 2.2071066
+    m_Target: 2.5071065
     speed: 2
-    m_Value: 2.2071066
+    m_Value: 2.5071065
   m_Ortho:
     m_Target: 0
     speed: 2
