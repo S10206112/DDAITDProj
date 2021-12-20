@@ -11,7 +11,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
 
     private Story currentStory;
-    public bool dialogueActive;
+    public bool dialogueActive { get; private set; }
 
     //Dialogue Manager Singleton
     private static DialogueManager instance;

@@ -1461,7 +1461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.369}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006445099
@@ -1571,7 +1571,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualCue: {fileID: 973999899}
-  inkText: {fileID: 4900000, guid: 5f143a8c5cb37904096416ad4e41683c, type: 3}
+  inkText:
+  - {fileID: 4900000, guid: 5f143a8c5cb37904096416ad4e41683c, type: 3}
+  - {fileID: 4900000, guid: 237427f9232bb2046bebaf4d68290b8f, type: 3}
+  textIndex: 0
 --- !u!1 &1155014151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,7 +1707,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1471435921}
   dialogueText: {fileID: 1208688247}
-  dialogueActive: 0
 --- !u!4 &1183819939
 Transform:
   m_ObjectHideFlags: 0
@@ -2485,7 +2487,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: START
 --- !u!222 &1651822144
 CanvasRenderer:
   m_ObjectHideFlags: 0

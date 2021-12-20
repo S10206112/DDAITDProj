@@ -8,10 +8,11 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private GameObject visualCue;
 
     [Header("Ink JSON Text")]
-    [SerializeField] private TextAsset inkText;
+    [SerializeField] private TextAsset[] inkText;
 
     [Header("Dialogue Trigger")]
     private bool playerInRange;
+    public int textIndex = 0;
 
     private void Awake()
     {
@@ -22,7 +23,7 @@ public class DialogueTrigger : MonoBehaviour
     private void Update()
     {
         //Visual Cue Display
-        if (playerInRange && !DialogueManager.GetInstance().dialogueActive)
+        if (/*playerInRange &&*/!DialogueManager.GetInstance().dialogueActive)
         {
             visualCue.SetActive(true);
         }
@@ -55,7 +56,7 @@ public class DialogueTrigger : MonoBehaviour
             DialogueManager.GetInstance().EnterDialogue(inkText);
         }*/
 
-        DialogueManager.GetInstance().EnterDialogue(inkText);
-        GetComponent<UnityEngine.UI.Image>().enabled = false;
+        DialogueManager.GetInstance().EnterDialogue(inkText[textIndex]);
+        textIndex++;
     }
 }

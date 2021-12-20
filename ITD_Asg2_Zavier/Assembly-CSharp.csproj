@@ -53,25 +53,13 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\ASG\Scripts\fromzav.cs" />
-    <Compile Include="Assets\ASG\Scripts\DialogueTrigger.cs" />
-    <Compile Include="Assets\ASG\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\ASG\Scripts\wassssssuuoauiouaudoiaghd.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\ASG\Scripts\PlayerInteraction.cs" />
-    <Compile Include="Assets\ASG\Scripts\DialogueManager.cs" />
-=======
-    <Compile Include="Assets\fromdan.cs" />
     <Compile Include="Assets\ASG\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\ASG\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\ASG\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\ASG\Scripts\DialogueManager.cs" />
-    <Compile Include="Assets\ASG\Scripts\fromzav.cs" />
->>>>>>> parent of 8f897a9e (hope it does not crash)
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
