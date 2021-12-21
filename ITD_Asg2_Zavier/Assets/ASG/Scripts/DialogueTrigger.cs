@@ -25,7 +25,11 @@ public class DialogueTrigger : MonoBehaviour
         //Visual Cue Display
         if (/*playerInRange &&*/!DialogueManager.GetInstance().dialogueActive)
         {
+            //display visual cue
             visualCue.SetActive(true);
+
+            //Trigger
+            //TriggerDialogue();
         }
         else
         {
@@ -56,7 +60,8 @@ public class DialogueTrigger : MonoBehaviour
             DialogueManager.GetInstance().EnterDialogue(inkText);
         }*/
 
+        //Initiate Player's Current Dialogue Progress Tree
         DialogueManager.GetInstance().EnterDialogue(inkText[textIndex]);
-        textIndex++;
+        //textIndex++;
     }
 }
