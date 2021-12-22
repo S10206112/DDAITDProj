@@ -16,7 +16,6 @@ public class Achievement
     public GameObject achievementRef;
 
 
-
     public Achievement(string name, string description, int spriteIndex, GameObject achievementRef)
     {
         this.name = name;
@@ -41,21 +40,22 @@ public class Achievement
         return false;
     }
 
-   /* public void SaveAchievement(bool value)
-    {
-        //to save players achievement
-        unlocked = value;
+    /* public void SaveAchievement(bool value)
+     {
+         //to save players achievement
+         unlocked = value;
 
-        PlayerPrefs.Save();
+         PlayerPrefs.Save();
 
-    }
+     }
 
-    public void LoadAchievement()
-    {
-        unlocked = PlayerPrefs.GetInt(name) == 1 ? true : false;
+     public void LoadAchievement()
+     {
+         unlocked = PlayerPrefs.GetInt(name) == 1 ? true : false;
 
-        if (unlocked)
-        {
-            achievementRef.GetComponent<Image>().sprite = AchievementManager.Instance.unlockSprite;
-        }
-    }*/
+         if (unlocked)
+         {
+             achievementRef.GetComponent<Image>().sprite = AchievementManager.Instance.unlockSprite;
+         }
+     }*/
+}
