@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ASG/PlayerTest.unity
+- path: Assets/ASG/TestScene/PlayerTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

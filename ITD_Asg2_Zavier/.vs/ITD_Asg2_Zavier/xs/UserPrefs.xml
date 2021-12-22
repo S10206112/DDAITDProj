@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{5AE60B42-1955-4D5C-84B1-4E69DD10E37E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ASG/Scripts/Base GAME/GameManager.cs">
+    <Files>
+      <File FileName="Assets/ASG/Scripts/DialogueTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/ASG/Scripts/DialogueManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/ASG/Scripts/InteractableObjects.cs" Line="16" Column="1" />
+      <File FileName="Assets/ASG/Scripts/Achievement/AchievementBtn.cs" Line="4" Column="22" />
+      <File FileName="Assets/ASG/Scripts/Achievement/AchievementClass.cs" Line="6" Column="25" />
+      <File FileName="Assets/ASG/Scripts/Achievement/AchievementManager.cs" Line="29" Column="81" />
+      <File FileName="Assets/ASG/Scripts/Base GAME/TimeManager.cs" Line="45" Column="27" />
+      <File FileName="Assets/ASG/Scripts/Base GAME/GameManager.cs" Line="7" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ITD_Asg2_Zavier" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ASG" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Achievement" expanded="True" />
+                  <Node name="Base GAME" expanded="True">
+                    <Node name="GameManager.cs" selected="True" />
+                  </Node>
+                  <Node name="Dialogue" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="981a707b-38dc-4c17-9368-0684a5e2c2f6" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
