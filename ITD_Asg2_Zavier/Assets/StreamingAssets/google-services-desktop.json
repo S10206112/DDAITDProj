@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "61060337739",
+    "firebase_url": "https://itdddastuff-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "itdddastuff",
+    "storage_bucket": "itdddastuff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61060337739:android:1adf9d60e6108c9e6c3dce",
+        "android_client_info": {
+          "package_name": "com.company.debugs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61060337739-ent1m72028qlui6nh5kr8ssfg99in9cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGAHlYCFabhIkPReRtH5GviAy9s6-Vi_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61060337739-ent1m72028qlui6nh5kr8ssfg99in9cr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "61060337739-fi64giunvdj2pp9ro3ka0vicme3n6pvn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.debugs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61060337739:android:20ce4453efee33ef6c3dce",
+        "android_client_info": {
+          "package_name": "com.company.debugssss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61060337739-ent1m72028qlui6nh5kr8ssfg99in9cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGAHlYCFabhIkPReRtH5GviAy9s6-Vi_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61060337739-ent1m72028qlui6nh5kr8ssfg99in9cr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "61060337739-fi64giunvdj2pp9ro3ka0vicme3n6pvn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.debugs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
