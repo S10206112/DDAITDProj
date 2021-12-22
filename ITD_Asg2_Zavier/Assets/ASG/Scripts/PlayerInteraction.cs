@@ -9,11 +9,13 @@ public class PlayerInteraction : MonoBehaviour
     void Start()
     {
         List<InputDevice> devices = new List<InputDevice>();
-        InputDevices.GetDevices(devices);
+        InputDeviceCharacteristics rightController = InputDeviceCharacteristics.Right | InputDeviceCharacteristics.Controller;
+        InputDevices.GetDevicesWithCharacteristics(rightController, devices);
 
         foreach (InputDevice item in devices)
         {
             Debug.Log(item.name + item.characteristics);
+            item.TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion handRotation);
         }
     }
 }
