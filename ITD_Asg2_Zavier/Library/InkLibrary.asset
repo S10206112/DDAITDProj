@@ -14,22 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inkLibrary:
   - compileAutomatically: 0
-    inkAsset: {fileID: 102900000, guid: 79c5e44429c927e47a95ffa37b4bd72a, type: 3}
-    jsonAssetDirectory: {fileID: 0}
-    jsonAsset: {fileID: 4900000, guid: 5f143a8c5cb37904096416ad4e41683c, type: 3}
-    unhandledCompileErrors: []
-    errors: []
-    warnings: []
-    todos: []
-    parents: []
-    masterInkAssets: []
-    masterInkAsset: {fileID: 0}
-    includePaths: []
-    includes: []
-  - compileAutomatically: 0
     inkAsset: {fileID: 102900000, guid: a3366f82444e9c74199d792fdb5ab619, type: 3}
     jsonAssetDirectory: {fileID: 0}
-    jsonAsset: {fileID: 4900000, guid: 237427f9232bb2046bebaf4d68290b8f, type: 3}
+    jsonAsset: {fileID: 0}
     unhandledCompileErrors: []
     errors: []
     warnings: []
