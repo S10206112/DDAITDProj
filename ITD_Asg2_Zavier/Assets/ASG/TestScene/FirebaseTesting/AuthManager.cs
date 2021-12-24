@@ -66,7 +66,7 @@ public class AuthManager : MonoBehaviour
         if(newPlayer != null){
             await CreateNewSimplePlayer(newPlayer.UserId, userName, email);
             await UpdatePlayerDisplayName(userName);
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("MainLobby");
         }
     }
 
@@ -128,10 +128,9 @@ public class AuthManager : MonoBehaviour
         }
     }
 
-    public async Task CreateNewSimplePlayer(string UserId, string userName, string email, 
-        int lastcp = 0)
+    public async Task CreateNewSimplePlayer(string UserId, string userName, string email)
     {
-        SimplePlayer newPlayer = new SimplePlayer(UserId, userName, email, lastcp);
+        SimplePlayer newPlayer = new SimplePlayer(UserId, userName, email);
         Debug.LogFormat("Player Details : {0}", newPlayer.PrintPlayerDetails());
         
         await dbReference.Child("users/" + UserId).SetRawJsonValueAsync(newPlayer.SaveToJson());
@@ -167,7 +166,7 @@ public class AuthManager : MonoBehaviour
             {
                 Firebase.Auth.FirebaseUser newPlayer = task.Result;  
                 Debug.LogFormat("User signed in successfully: {0} {1}", newPlayer.DisplayName, newPlayer.UserId);
-                SceneManager.LoadScene("MainMenu");
+                SceneManager.LoadScene("MainLobby");
             }    
         });
         //LoadGame();

@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/ASG/TestScene/FirebaseTesting/Authentication.unity
+    guid: 977e795c8e533aa43a11e15bb28f1a11
+  - enabled: 1
+    path: Assets/ASG/TestScene/FirebaseTesting/MainLobby.unity
+    guid: 0264b3e298b241444b182e6633aedad8
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 27602c33bfac69f4c9a8ce3ca9f3ff1b, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8ccf4e11fde3cfd4e9a5cf9619accd36, type: 2}

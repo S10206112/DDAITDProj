@@ -13,7 +13,6 @@ public class SimplePlayer
     public long createdon;
     public long lastLoggedIn;
     public long updatedon;
-    public int lastcp;
     public string email;
     public string UserId;
     public string userName;
@@ -23,7 +22,6 @@ public class SimplePlayer
     /// <param name="createdon"></param>
     /// <param name="lastLoggedIn"></param>
     /// <param name="updatedon"></param>
-    /// <param name="lastcp"></param>
     /// <param name="email"></param>
     /// <param name="UserId"></param>
     /// <param name="userName"></param>
@@ -32,11 +30,10 @@ public class SimplePlayer
     //constructor with parameters
     //whenever when we new an object
     public SimplePlayer(string UserId,  
-        string userName, string email, int lastcp = 0, bool active = true)
+        string userName, string email, bool active = true)
     {
         this.userName = userName;
         this.email = email;
-        this.lastcp = lastcp;
         this.UserId = UserId;
         this.active = active;
 
@@ -60,7 +57,7 @@ public class SimplePlayer
     {
         //return String.Format("Username: {0} \n Email: {1}\n Last Checkpoint: {2}\n User ID: {3} \n Active: {4}",
         //    this.userName,this.email,this.lastcp,this.UserId,this.active);
-        return String.Format("User ID: {0} \n Active: {1} \n Email: {2} \n Last Checkpoint: {3} \n Username: {4}",
-        this.UserId, this.active, this.email, this.lastcp, this.userName);
+        return String.Format("User ID: {0} \n Active: {1} \n Email: {2} \n Username: {4}",
+        this.UserId, this.active, this.email, this.userName);
     }
 }
