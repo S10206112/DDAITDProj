@@ -66,15 +66,15 @@ Another section would be the achievements, which involves completing mini object
 ## Credits
 
 ### Sketch Fab Assets Used
-https://sketchfab.com/3d-models/apple-bitten-mythical-beasts-jousting-assets-14288680d62a4fa5b8240c633012729e
-https://sketchfab.com/3d-models/leaf-bug-31fb4afe3fb34d5a9481c0c47cdec4c9
-https://sketchfab.com/3d-models/low-poly-ant-model-3635180b9b7d44dba5f7eb007693ded5
+- https://sketchfab.com/3d-models/apple-bitten-mythical-beasts-jousting-assets-14288680d62a4fa5b8240c633012729e
+- https://sketchfab.com/3d-models/leaf-bug-31fb4afe3fb34d5a9481c0c47cdec4c9
+- https://sketchfab.com/3d-models/low-poly-ant-model-3635180b9b7d44dba5f7eb007693ded5
 
 ### VR Tutorial Playlist
-https://youtube.com/playlist?list=PLrk7hDwk64-a_gf7mBBduQb3PEBYnG4fU
+- https://youtube.com/playlist?list=PLrk7hDwk64-a_gf7mBBduQb3PEBYnG4fU
 
 ### Firebase References
-https://firebase.google.com/docs
-https://stackoverflow.com/
+- https://firebase.google.com/docs
+- https://stackoverflow.com/
 
 
