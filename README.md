@@ -60,6 +60,8 @@ Another section would be the achievements, which involves completing mini object
 - Leaderboard for the Ant Maze Timings
 
 
+### Additional Notes
+- Achievement Menu is currently bugged and will not display achievements in the Unity Build but will still be updated to the Firebase
 
 ## Credits
 
