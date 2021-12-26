@@ -3,11 +3,11 @@
 DeBugs is a virtual game that uses VR headsets to immerse the player in a digital world where you explore the bug world on a closer level, creating friendly relationships along the way.
 
 ### Group Members of the Project
-Kirdesh - Group Leader
-Jonathan - All Rounder 
-Dan - DDA Master
-Zavier - ITD COO
-Nyan Lin - Modeller/Level Creator
+- Kirdesh : Group Leader
+- Jonathan : All Rounder 
+- Dan : DDA Master
+- Zavier : ITD COO
+- Nyan Lin : Modeller/Level Creator
  
 ## Design Process
  
