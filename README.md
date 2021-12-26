@@ -2,6 +2,8 @@
 
 DeBugs is a virtual game that uses VR headsets to immerse the player in a digital world where you explore the bug world on a closer level, creating friendly relationships along the way.
 
+This is a studio-based Assignment involving ITD & DDA.
+
 ### Group Members of the Project
 - Kirdesh : Group Leader
 - Jonathan : All Rounder 
